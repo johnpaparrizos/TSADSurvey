@@ -1,7 +1,10 @@
 <h1 align="center">Time-Series Anomaly Detection: A Survey
 </h1>
+<h4 align="center">Supplementary materials for IJCAI 2024 submission. </h4>
 
-Supplementary materials for IJCAI 2024 submission. 
+
+### Abstract
+Recent advances in data collection technology, accompanied by the ever-rising volume and velocity of streaming data, underscore the vital need for time-series analytics. In this regard, time-series anomaly detection has been an important task, entailing various applications in fields such as cyber security, financial markets, and health care. While traditional literature on anomaly detection is centered on statistical measures, the increasing number of machine learning algorithms in recent years call for a structured, general characterization of the research methods for time-series anomaly detection. This survey groups and summarizes existing anomaly detection solutions under a novel process-centric taxonomy in the time series context. In addition, we perform a meta-analysis of the literature, outline trends, and discuss progress toward benchmarking time-series anomaly detection methods.
 
 ### Contents
 1. [Table](#tb)
