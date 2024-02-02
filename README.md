@@ -658,5 +658,5 @@ on Data Mining (ICDM), pages 936–945. IEEE, 2019.
 
 - [John Paparrizos](https://www.paparrizos.org/)
 - [Paul Boniol](https://boniolp.github.io/)
-- Qinghua Liu
+- [Qinghua Liu](https://qhliu26.github.io/)
 - [Themis Palpanas](https://helios2.mi.parisdescartes.fr/~themisp/)
