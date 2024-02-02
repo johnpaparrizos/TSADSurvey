@@ -1,16 +1,20 @@
 <h1 align="center">Time-Series Anomaly Detection: A Survey
 </h1>
-<h4 align="center">Supplementary materials for IJCAI 2024 submission. </h4>
+
+<h5 align="center">Supplementary materials for IJCAI 2024 submission. </h5>
 
 
 ### Abstract
 Recent advances in data collection technology, accompanied by the ever-rising volume and velocity of streaming data, underscore the vital need for time-series analytics. In this regard, time-series anomaly detection has been an important task, entailing various applications in fields such as cyber security, financial markets, and health care. While traditional literature on anomaly detection is centered on statistical measures, the increasing number of machine learning algorithms in recent years call for a structured, general characterization of the research methods for time-series anomaly detection. This survey groups and summarizes existing anomaly detection solutions under a novel process-centric taxonomy in the time series context. In addition, we perform a meta-analysis of the literature, outline trends, and discuss progress toward benchmarking time-series anomaly detection methods.
 
 ### Contents
-1. [Table](#tb)
-2. [Reference](#ref)
+1. [Taxonomy](#tax)
+2. [Table](#tb)
+3. [Reference](#ref)
+4. [Contributors](#cont)
 
-### Time-Series Anomaly Detection Taxonomy
+
+<h3 id="tax"> 1. Time-Series Anomaly Detection Taxonomy </h3>
 
 <p align="center">
 <img width="1000" src="./assets/figures/taxonomy_short.png"/>
@@ -650,3 +654,11 @@ Philip Brisk, and Eamonn Keogh. Matrix profile xviii: time
 series mining in the face of fast moving streams using a learned
 approximate matrix profile. In 2019 IEEE International Conference
 on Data Mining (ICDM), pages 936–945. IEEE, 2019.
+
+
+<h3 id="cont"> 1. Contributors </h3>
+
+- [John Paparrizos](https://www.paparrizos.org/)
+- [Paul Boniol](https://boniolp.github.io/)
+- Qinghua Liu
+- [Themis Palpanas](https://helios2.mi.parisdescartes.fr/~themisp/)
