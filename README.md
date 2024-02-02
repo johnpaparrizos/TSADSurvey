@@ -1,4 +1,5 @@
-## Time-Series Anomaly Detection: A Survey 
+<h1 align="center">Time-Series Anomaly Detection: A Survey
+</h1>
 
 Supplementary materials for IJCAI 2024 submission. 
 
@@ -6,7 +7,19 @@ Supplementary materials for IJCAI 2024 submission.
 1. [Table](#tb)
 2. [Reference](#ref)
 
-<h3 id="tb"> 1. Table </h3>
+### Time-Series Anomaly Detection Taxonomy
+
+<p align="center">
+<img width="150" src="./assets/figures/taxonomy_short.png"/>
+</p>
+
+We divide methods into three core categories: (i) Distance-based, (ii) Density-based, and (iii) Prediction-based. The distance-based family contains methods that focus on analyzing sub-sequences to detect anomalies in time series, mainly by utilizing distance measures to a given model. Instead of measuring nearest-neighbor distances, density-based methods focus on detecting globally normal distributions and isolated behaviors. The prediction-based methods aim to train a model (on anomaly-free time series) to reconstruct the normal data or predict the future expected normal points. In the following sections, we break down each category into subcategories. The figure above illustrates our proposed process-centric taxonomy. Note that the second-level categorization is not mutually exclusive. A model might compress the time series data while adopting a discord-based identification strategy. In this case, the model falls within two different sub-categories. In the table of methods, only one of the second-level will be listed to give a clearer representation. We provide below a detailed taxonomy of methods proposed in the literature.
+
+<p align="center">
+<img width="150" src="./assets/figures/detailed_taxonomy.png"/>
+</p>
+
+<h3 id="tb"> 1. Table of Methods </h3>
 
 * Notation:
   I: Univariate, M: Multivariate; 
